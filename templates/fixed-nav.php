@@ -22,7 +22,7 @@
 	</div>
 	
 	<a href="#" title="Your user preferences." id="user-info-toggle" style="background-color:inherit;" onclick="return toggleUserMenu();">
-		<img id="user-icon" class="user-icon" src="/extensions/UIFixedNav/images/login-image.png" />
+		<img id="user-icon" class="user-icon" src="<?php print $wgScriptPath; ?>/extensions/UIFixedNav/images/login-image.png" />
 	</a>
 	
 </header>
@@ -31,7 +31,7 @@
 	<div id="user-preference-content-container">
 		<div id="user-preference-content">
 			<a href="#" title="Your user preferences." id="user-info-toggle" style="background-color:inherit;" onclick="return toggleUserMenu();">
-				<img id="user-icon" class="user-icon" src="/extensions/UIFixedNav/images/login-image.png" />
+				<img id="user-icon" class="user-icon" src="<?php print $wgScriptPath; ?>/extensions/UIFixedNav/images/login-image.png" />
 			</a>
 			<div id="drawer-p-personal">&nbsp;</div>
 		</div>
