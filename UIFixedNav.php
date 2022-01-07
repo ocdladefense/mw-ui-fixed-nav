@@ -20,7 +20,7 @@ class UIFixedNav {
 				"css/fixed-nav.css",
 			),
 			"position" => "top",
-			"remoteBasePath" => "extensions/UIFixedNav",
+			"remoteBasePath" => "/extensions/UIFixedNav",
 			"localBasePath" => "extensions/UIFixedNav"
 		);
 	}
